@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Commissioner', sans-serif;
+}
+.header{
+    background: url(/images/image-hero-desktop.jpg);
+    max-width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+.barrasuperior__header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 150px;
+    flex: 1;
+    background: linear-gradient(to bottom, rgb(26, 26, 26), transparent);
+}
+a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    padding: 68px 20px;  
+    font-weight: 600;
+}
+a:nth-child(3){
+    padding-right: 250px;
+}
+.barrasuperior__nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 0px;
+}
+.barrasuperior__link{
+    font-weight: 700;
+    font-size: xx-large;
+    position: relative;
+    left: 215px;
+}
+.main{
+    background-color: #fcfcfc;
+}
+.main__section1{
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    position: relative;
+    background-color: #ffffff;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    
+}
+.titulo__section1{
+    text-align: center;  
+    padding-bottom: 20px;
+}
+.parrafo__section1{
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+.figure__img{
+
+    position: relative;
+    left: 50%;
+    bottom: 60px;
+    transform: translate(-4%);
+}
+.proyect__bookmark{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn__project{
+    background-color: #3cb4ab;
+    color: white;
+    border-radius: 25px;
+    border: transparent;
+    padding: 20px 50px;
+    font-weight: bold;
+    font-size: medium;
+}
+.bookmarck__btn{
+    background-color: #f7f7f7;
+    color: #b2b2b2;
+    display: flex;
+    border-radius: 25px;
+    width: 200px;
+}
+.img__book{
+    display: flex;
+    align-items: flex-start;
+    flex: 1 ;
+    border-radius: 50%;
+}
+
+.btn__book{
+    border-radius: 50%;
+    width: 100px;
+}
+span{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-weight: bolder;
+}
+.main__section2{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    position: relative;
+    background-color: #ffffff;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 30px 20px;
+    
+}
+.numerosFlex{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.numero1, .numero2, .numero3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 140px;
+}
+.numero2{
+    display: flex;
+    margin-left: 1px solid #ccc;
+    margin-right: 1px solid #ccc;
+}
+.barragris{
+    width: 100%;
+    height: 20px;
+    position: relative;
+    background-color: #f7f7f7;
+    transform: translate(0%);
+    border-radius: 10px;
+}
+.barrazul{
+    width: 75%;
+    height: 20px;
+    position: relative;
+    background-color: #3db4a9;
+    border-radius: 10px;
+}
+.main__section3{
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    transform: translate(75%);
+    position: relative;
+    top: -130px;
+    display: flex;   
+    flex-direction: column;
+    padding: 30px 20px;
+
+}
+.h2titulo{
+    padding: 10px 20px;
+}
+.parrafo{
+    padding: 20px;
+    line-height: 20px;
+}
+.tarjeta1{
+    padding-right: 20px;
+    width: 96%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    transform: translate(2%);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta1__div{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.span__tajerta1{
+    color: #78b4ae;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.parrafo__tajerta1{
+    padding: 5px 10px;
+}
+.precio__boton{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.span__101{
+    font-size: xx-large;
+    color: black;
+}
+.span__left{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: medium;
+    color: rgb(160, 160, 160);
+}
+.btn__select{
+    background-color: #3cb4ab;
+    color: white;
+    border-radius: 35px;
+    border: transparent;
+    padding: 15px 40px;
+    font-weight: 600;
+    font-size: medium;
+}
+.h2__tarjeta1:nth-child(4){
+    color: #a1a1a1;
+}
+.btn1{
+    background-color: #a1a1a1;
+}
+.titu1, .spa1{
+    color: #a1a1a1;
+}
+.spamo{
+    color: #c3deda;
+}
+button:hover{
+    cursor: pointer;
+}
+.btn1:hover{
+    cursor: not-allowed;
+}
+
